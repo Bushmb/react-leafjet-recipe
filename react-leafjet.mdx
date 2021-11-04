@@ -1,0 +1,25 @@
+# Setup Gatsby with React Leaflet
+
+[React Leaflet](https://react-leaflet.js.org/) is a component library bringing React Components to [Leaflet](https://leafletjs.com/).
+
+---
+
+## Install NPM packages
+
+<YARNPackage name="leaflet" />
+<YARNPackage name="react-leaflet" />
+<YARNPackage name="gatsby-plugin-react-leaflet" />
+
+---
+
+## Install the React Leaflet plugin in gatsby-config.js
+
+<GatsbyPlugin name="gatsby-plugin-react-leaflet" />
+
+---
+
+## Adding an example Map component with a new map demo page located at /map
+
+<File path="src/pages/map.js" content="https://raw.githubusercontent.com/colbyfayock/gatsby-recipe-react-leaflet/master/src/pages/map.js" />
+<File path="src/components/Map.js" content="https://raw.githubusercontent.com/colbyfayock/gatsby-recipe-react-leaflet/master/src/components/Map.js" />
+<File path="src/components/Map.module.css" content="https://raw.githubusercontent.com/colbyfayock/gatsby-recipe-react-leaflet/master/src/components/Map.module.css" />
